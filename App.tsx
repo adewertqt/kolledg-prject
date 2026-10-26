@@ -190,7 +190,7 @@ export default function App() {
         </div>
         <div className="hero-visual">
           <img
-            src={`${import.meta.env.BASE_URL}images/123.jpg`}
+            src="/images/123.jpg"
             alt="Современное игровое рабочее место"
           />
           <div className="floating-card">
