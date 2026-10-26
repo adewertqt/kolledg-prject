@@ -63,7 +63,7 @@ const products: Product[] = [
     specs: '128 GB · Natural Titanium',
     price: 114990,
     image:
-      './images/pro max.jpg',
+      './images/pro_max.jpg',
   },
   {
     id: 6,
