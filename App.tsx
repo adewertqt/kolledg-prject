@@ -20,7 +20,7 @@ const products: Product[] = [
     specs: '256 GB · Desert Titanium',
     price: 139990,
     image:
-      '/images/iphone 16.jpg',
+      './images/iphone 16.jpg',
     badge: 'Хит',
   },
   {
@@ -31,7 +31,7 @@ const products: Product[] = [
     specs: '256 GB · Titanium Black',
     price: 129990,
     image:
-      '/images/samsung.jpg',
+      './images/samsung.jpg',
     badge: 'Новинка',
   },
   {
@@ -42,7 +42,7 @@ const products: Product[] = [
     specs: 'Беспроводная · 60 г',
     price: 19990,
     image:
-      '/images/superstrike.jpg',
+      './images/superstrike.jpg',
   },
   {
     id: 4,
@@ -52,7 +52,7 @@ const products: Product[] = [
     specs: '24.5″ · Full HD · 400 Гц',
     price: 89990,
     image:
-      '/images/hero.jpg',
+      './images/hero.jpg',
     badge: 'Pro choice',
   },
   {
@@ -63,7 +63,7 @@ const products: Product[] = [
     specs: '128 GB · Natural Titanium',
     price: 114990,
     image:
-      '/images/pro max.jpg',
+      './images/pro_max.jpg',
   },
   {
     id: 6,
@@ -73,7 +73,7 @@ const products: Product[] = [
     specs: '512 GB · Silver Shadow',
     price: 159990,
     image:
-      '/images/fold.jpg',
+      './images/fold.jpg',
     badge: 'Foldable',
   },
   {
@@ -84,7 +84,7 @@ const products: Product[] = [
     specs: 'Магнитные переключатели · TKL',
     price: 24990,
     image:
-      '/images/tkl.jpg',
+      './images/tkl.jpg',
   },
   {
     id: 8,
@@ -94,7 +94,7 @@ const products: Product[] = [
     specs: 'Беспроводная гарнитура · 50 мм',
     price: 22990,
     image:
-      '/images/light.jpg',
+      './images/light.jpg',
     badge: 'Выбор игроков',
   },
 ]
@@ -190,7 +190,7 @@ export default function App() {
         </div>
         <div className="hero-visual">
           <img
-            src="/images/123.jpg"
+            src="./images/123.jpg"
             alt="Современное игровое рабочее место"
           />
           <div className="floating-card">
