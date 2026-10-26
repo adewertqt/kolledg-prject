@@ -20,7 +20,7 @@ const products: Product[] = [
     specs: '256 GB · Desert Titanium',
     price: 139990,
     image:
-      '/images/iphone 16.jpg',
+      'images/iphone 16.jpg',
     badge: 'Хит',
   },
   {
